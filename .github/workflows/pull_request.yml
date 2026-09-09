@@ -70,7 +70,7 @@ jobs:
   android:
     name: Android Swift SDK
     # Workaround https://github.com/nektos/act/issues/1875
-    uses: apple/swift-nio/.github/workflows/android_swift_sdk.yml@main
+    uses: apple/swift-nio/.github/workflows/android_swift_sdk.yml@hd-android-dynamic-stdlib
 
   release-builds:
     name: Release builds
